@@ -58,7 +58,7 @@ footer {
 .barra-sticky{
     position: sticky;
     top: 0px;
-    background-color: rgb(255, 221, 0);
+    background-color: rgb(0, 174, 255);
     color:rgb(7, 49, 98);
     padding: 12px;
     font-weight: bold;
@@ -66,23 +66,22 @@ footer {
     border-bottom: 4px solid rgb(7,49,98);
 }
 
-.posicao{
+.posicao {
     margin: 40px;
     border-radius: 40px;
     padding: 20px;
+    text-align: center;
     background-color: rgb(72,155,243);
     color: white;
-}
 
-.pos-box{
-    width: 420px;
-    margin: 20px auto;
-    padding: 15px;
-    border: 4px solid white;
-    background-color: rgb(72,155,243);
-    color: white;
-}
 
+}
+.Jogadores{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 .pos-relative{
     position: relative;
     top: 20px;
@@ -90,26 +89,19 @@ footer {
     background-color: rgb(255, 221, 0);
     color: (7, 49, 98);
 }
-
-.pai{
-    width: 520px;
-    height: 160px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
+.img_jogador{
+    width: 100px;
+    margin: center;
+    padding: 15px;
+    height: 100px;
+    border-radius: 50%;
     border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    position: relative;
+    background-color: rgb(72,155,243);
     color: white;
-    font-weight: bold;
 }
-.filho {
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    padding: 8px 12px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7,49,98);
-    border: 3px solid rgb(7,49,98);
-    border-radius: 20px;
+
+.pos-box {
+     width: 150px;
+    padding: 10px;
+    text-align: center;
 }
